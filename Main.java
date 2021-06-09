@@ -37,7 +37,7 @@ public class Main {
                 if(isVowel(chars[selected[i]])) vowel++;
                 else consonant++;  
                 
-                // 충족할 경우, 나열된 문자열 출력
+                // 충족할 경우, 나열된 문자열 출력을 위해 
                 if(vowel > 0 && consonant > 1) {
                     for(int j = 1; j < M + 1; j++) 
                         sb.append(chars[selected[j]]);
